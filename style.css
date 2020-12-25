@@ -1,5 +1,9 @@
 /* style.css */
 
+body {
+  background-color: #202020
+}
+
 h1 {
   text-align: center;
   font-size: 1em;
