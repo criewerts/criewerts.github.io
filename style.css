@@ -80,18 +80,18 @@ p {
 
 #email {
   display: inline-block;
-  border: double 4px #F98F10;
+  border: double 4px #D52685;
   border-radius: 8px;
   padding: 10px;
-  color:#D52685;
+  color:#F2F2F2;
   font-family:'Raleway'
 }
 
 #phone {
   display: inline-block;
-  border: double 4px #F98F10;
+  border: double 4px #D52685;
   border-radius: 8px;
   padding: 10px;
-  color:#D52685;
+  color:#F2F2F2;
   font-family:'Raleway'
 }
