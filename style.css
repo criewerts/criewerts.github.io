@@ -47,7 +47,7 @@ p {
   padding:150px 30% 0%
 }
 
-@media (max-aspect-ratio: 1/2) {
+@media (max-aspect-ratio: 1/1) {
   #cont {
     width:100%;
     padding:150px 10% 0%
