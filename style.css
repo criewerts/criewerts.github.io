@@ -83,15 +83,17 @@ p {
   border: solid 2px #EFF20B;
   border-radius: 8px;
   padding: 10px;
+  margin-left: 20%;
   color:#F2F2F2;
   font-family:'Raleway'
 }
 
 #phone {
   display: inline-block;
-  border: solid 2px #EFF20B;
+  border: solid 2px #F9991F;
   border-radius: 8px;
   padding: 10px;
+  margin-left: 20%;
   color:#F2F2F2;
   font-family:'Raleway'
 }
