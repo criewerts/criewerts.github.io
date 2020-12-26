@@ -65,14 +65,14 @@ p {
 #contact {
   font-family: 'Raleway';
   font-size: 250%;
-  color:#EFF20B;
+  color:#F2F2F2;
   padding-top:50px;
   padding-left:20%
 }
 
 #contactbox {
   display: inline-block;
-  border: solid 4px #EFF20B;
+  border: double 4px #F2F2F2;
   border-radius: 16px;
   padding: 10px;
   margin-left: 20%;
@@ -80,7 +80,7 @@ p {
 
 #email {
   display: inline-block;
-  border: solid 2px #15F6E2;
+  border: solid 2px #EFF20B;
   border-radius: 8px;
   padding: 10px;
   color:#F2F2F2;
@@ -89,7 +89,7 @@ p {
 
 #phone {
   display: inline-block;
-  border: solid 2px #15F6E2;
+  border: solid 2px #EFF20B;
   border-radius: 8px;
   padding: 10px;
   color:#F2F2F2;
