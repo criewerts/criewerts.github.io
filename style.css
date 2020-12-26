@@ -74,7 +74,8 @@ p {
 #email {
   display: inline-block;
   border: double 1px #F2F2F2;
-  padding-left: 20%;
+  padding: 10px;
+  margin-left: 20%;
   font-color:#F2F2F2;
   font-family:'Raleway'
 }
