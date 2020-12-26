@@ -80,7 +80,7 @@ p {
 
 #email {
   display: inline-block;
-  border: double 4px #0077B5;
+  border: double 4px #15F6E2;
   border-radius: 8px;
   padding: 10px;
   color:#F2F2F2;
@@ -89,7 +89,7 @@ p {
 
 #phone {
   display: inline-block;
-  border: double 4px #0077B5;
+  border: double 4px #15F6E2;
   border-radius: 8px;
   padding: 10px;
   color:#F2F2F2;
