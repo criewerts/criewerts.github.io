@@ -78,6 +78,8 @@ p {
   border-color:#28A4C0
 }
 
-#test {
-  text-shadow:0px 0px 3px #28A4C0
+#email {
+  display: inline-block;
+  border: solid 3px #F2F2F2;
+  padding: 10px
 }
