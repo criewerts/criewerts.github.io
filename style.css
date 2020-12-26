@@ -77,3 +77,7 @@ p {
   border-width:2px;
   border-color:#28A4C0
 }
+
+#test {
+  text-shadow:0px 0px 3px #28A4C0
+}
