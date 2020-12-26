@@ -9,3 +9,27 @@ body {
   font-size: 300%;
   color:#F2F2F2
 }
+
+#res {
+  font-family: 'Raleway';
+  font-size: 175%;
+  color:#D52685
+}
+
+#lin {
+  font-family: 'Raleway';
+  font-size: 175%;
+  color:#0077B5
+}
+
+#git {
+  font-family: 'Raleway';
+  font-size: 175%;
+  color:#6CC644
+}
+
+#mai {
+  font-family: 'Raleway';
+  font-size: 175%;
+  color:#EFF20B
+}
