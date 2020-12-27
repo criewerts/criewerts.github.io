@@ -103,9 +103,9 @@ p {
 }
 
 .split .left {
-    flex: 1;
+    flex: 0.5;
 }
 
 .split .right {
-    flex: 1;
+    flex: 0.5;
 }
