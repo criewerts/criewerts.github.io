@@ -103,7 +103,7 @@ p {
 }
 
 .left, .right {
-  width:50%;
+  width:100%;
   float:left;
   border: solid 2px #F9991F;
 }
