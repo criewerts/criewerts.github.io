@@ -96,7 +96,8 @@ p {
 
 .right {
   width:50%;
-  padding-left:5%;
+  padding-top:30px;
+  padding-left:10px;
   float:left;
   border: solid 2px #F9991F;
 }
