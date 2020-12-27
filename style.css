@@ -66,8 +66,6 @@ p {
   font-family: 'Raleway';
   font-size: 250%;
   color:#F2F2F2;
-  padding-top:50px;
-  padding-left:20%
 }
 
 #contactbox {
@@ -75,7 +73,6 @@ p {
   border: double 4px #F2F2F2;
   border-radius: 16px;
   padding: 10px;
-  margin-left: 20%;
 }
 
 #email {
@@ -83,7 +80,6 @@ p {
   border: solid 2px #EFF20B;
   border-radius: 8px;
   padding: 10px;
-  margin-left: 20%;
   color:#F2F2F2;
   font-family:'Raleway'
 }
@@ -93,17 +89,20 @@ p {
   border: solid 2px #F9991F;
   border-radius: 8px;
   padding: 10px;
-  margin-left: 20%;
   color:#F2F2F2;
   font-family:'Raleway'
 }
 
-.container {
-  width:100%
+.left {
+  width:50%;
+  padding-left:40%;
+  float:left;
+  border: solid 2px #F9991F;
 }
 
-.left, .right {
+.right {
   width:50%;
+  padding-left:5%;
   float:left;
   border: solid 2px #F9991F;
 }
