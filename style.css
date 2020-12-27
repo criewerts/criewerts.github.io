@@ -97,3 +97,15 @@ p {
   color:#F2F2F2;
   font-family:'Raleway'
 }
+
+.split {
+    display:flex;
+}
+
+.split .left {
+    flex: 1;
+}
+
+.split .right {
+    flex: 1;
+}
