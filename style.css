@@ -99,7 +99,7 @@ p {
 }
 
 .split {
-    display:inline-block;
+    display:flex;
 }
 
 .split .left {
