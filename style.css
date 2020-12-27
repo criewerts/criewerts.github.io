@@ -97,3 +97,12 @@ p {
   color:#F2F2F2;
   font-family:'Raleway'
 }
+
+.container {
+  width:100%
+}
+
+.left, .right {
+  width:50%;
+  float:left
+}
