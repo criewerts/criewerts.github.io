@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="right">
-        <p>Num 2</p>
+        <div id = "change"></div>
       </div>
     </div>
     
@@ -66,4 +66,44 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
   </body>
+  
+  <!--Script from Matthew Damiata-->
+  <script>
+    var request = new XMLHttpRequest()
+
+    request.open('GET', 'https://api.github.com/users/criewerts/repos', true)
+    request.onload = function() {
+
+    var projects = JSON.parse(this.response);
+
+    if (request.status >= 200 && request.status < 400) {
+
+        projects.sort(function(a,b){
+          return (b["created_at"]).localeCompare(a["created_at"]);
+        })
+
+      for(iter in projects)
+      {
+          title = projects[iter]["name"];
+          for(var i = 0; i < title.length; i++){
+            if(title.charAt(i) == '-') title = title.substring(0, i) + ' ' + title.substring(i + 1);
+          }
+          url = projects[iter]["html_url"];
+          lang = projects[iter]["language"];
+          desc = projects[iter]["description"]
+          if(!lang){
+            document.getElementById("change").innerHTML = document.getElementById("change").innerHTML + "<a href = "+ url +">" +
+            "<div class = " + "card" + ">" + "<h1>" + title + "</h1>" + "<h2>" + desc + "</h2>" + "</div>" + "</a>" + "<br>" + "<br>";
+          } else {
+          document.getElementById("change").innerHTML = document.getElementById("change").innerHTML + "<a href = "+ url +">" +
+          "<div class = " + "card" + ">" + "<h1>" + title + "</h1>" + "<h2>" + desc + "</h2>" + "<h3>" + "Programmed in " + lang + "</h3>" + "</div>" + "</a>" + "<br>" + "<br>";
+        }
+        }
+      }
+    }
+
+    request.send()
+
+</script>
+  
 </html>
