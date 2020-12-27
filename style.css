@@ -101,3 +101,18 @@ p {
   float:left;
   border: solid 2px #F9991F;
 }
+
+.card
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1vw;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  transition: ease-in 0.2s;
+}
+
+.card:hover
+{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+}
