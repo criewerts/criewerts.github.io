@@ -68,13 +68,6 @@ p {
   color:#F2F2F2;
 }
 
-#contactbox {
-  display: inline-block;
-  border: double 4px #F2F2F2;
-  border-radius: 16px;
-  padding: 10px;
-}
-
 #email {
   display: inline-block;
   border: solid 2px #EFF20B;
@@ -95,7 +88,7 @@ p {
 
 .left {
   width:50%;
-  padding-left:40%;
+  padding-left:20%;
   float:left;
   border: solid 2px #F9991F;
 }
