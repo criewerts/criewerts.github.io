@@ -27,18 +27,21 @@ h4 {
   color:#F2F2F2;
   font-family:'Raleway';
   font-size:250%;
+  text-decoration:none;
 }
 
 h5 {
   color:#F2F2F2;
   font-family:'Raleway';
   font-size:200%;
+  text-decoration:none;
 }
 
 h6 {
   color:#F2F2F2;
   font-family:'Raleway';
   font-size:150%;
+  text-decoration:none;
 }
 
 #cr {
@@ -142,6 +145,7 @@ h6 {
   background-color: #5F5F5F;
   border: 2px solid #F2F2F2;
   transition: ease-in 0.2s;
+  color:#F2F2F2;
 }
 
 .card:hover {
