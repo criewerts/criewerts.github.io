@@ -146,6 +146,7 @@ h6 {
   border: 2px solid #F2F2F2;
   transition: ease-in 0.2s;
   color:#F2F2F2;
+  text-decoration:none;
 }
 
 .card:hover {
