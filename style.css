@@ -59,7 +59,7 @@ p {
   height:300px;
   float:left;
   margin-right:10px;
-  border:2px solid #EB8B0A
+  border:2px solid #6CC644
 }
 
 #contact {
@@ -103,7 +103,7 @@ p {
   width:50%;
   padding-top:30px;
   padding-left:20px;
-  padding-right:20px;
+  padding-right:10%;
   float:left;
 }
 
