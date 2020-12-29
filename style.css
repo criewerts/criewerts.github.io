@@ -15,16 +15,19 @@ p {
 h4 {
   color:#F2F2F2;
   font-family:'Raleway';
+  font-size:250%;
 }
 
 h5 {
   color:#F2F2F2;
   font-family:'Raleway';
+  font-size:200%;
 }
 
 h6 {
   color:#F2F2F2;
   font-family:'Raleway';
+  font-size:150%;
 }
 
 #cr {
