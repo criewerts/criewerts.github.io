@@ -12,6 +12,21 @@ p {
   text-justify:inter-word
 }
 
+h4 {
+  color:#F2F2F2;
+  font-family:'Raleway';
+}
+
+h5 {
+  color:#F2F2F2;
+  font-family:'Raleway';
+}
+
+h6 {
+  color:#F2F2F2;
+  font-family:'Raleway';
+}
+
 #cr {
   font-family: 'Raleway';
   font-size: 300%;
@@ -118,9 +133,4 @@ p {
 
 .card:hover {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
-}
-
-#projdetails {
-  color:#F2F2F2;
-  font-family:'Raleway';
 }
