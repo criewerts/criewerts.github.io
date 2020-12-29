@@ -97,7 +97,6 @@ p {
   padding-top:30px;
   padding-left:20%;
   float:left;
-  border: solid 2px #F9991F;
 }
 
 .right {
@@ -106,7 +105,6 @@ p {
   padding-left:20px;
   padding-right:20px;
   float:left;
-  border: solid 2px #F9991F;
 }
 
 .card
