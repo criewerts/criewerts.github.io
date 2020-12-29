@@ -14,7 +14,7 @@ p {
 
 h3 {
   font-family:'Raleway';
-  font-size:300%;
+  font-size:225%;
   color:#F2F2F2;
   text-align:center;
 }
@@ -154,5 +154,6 @@ h6 {
   color:#F2F2F2;
   font-family:'Raleway';
   font-size:150%;
+  background-color:#2A2A2A;
 }
 
