@@ -130,6 +130,15 @@ h6 {
   float:left;
 }
 
+@media (max-aspect-ratio: 4/3) {
+  .left {
+  width:50%;
+  padding-top:30px;
+  padding-left:10%;
+  float:left;
+  }
+}
+
 .right {
   width:50%;
   padding-top:30px;
