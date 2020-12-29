@@ -68,6 +68,12 @@ p {
   color:#F2F2F2;
 }
 
+#projects {
+  font-family: 'Raleway';
+  font-size: 250%;
+  color:#F2F2F2;
+}
+
 #email {
   display: inline-block;
   border: solid 2px #EFF20B;
@@ -109,7 +115,7 @@ p {
   padding: 1vw;
   text-align: center;
   background-color: #9D9D9D;
-  border: 2px solid #000000;
+  border: 2px solid #007AFB;
   transition: ease-in 0.2s;
 }
 
