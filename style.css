@@ -12,6 +12,13 @@ p {
   text-justify:inter-word
 }
 
+h3 {
+  font-family:'Raleway';
+  font-size:100%;
+  color:#F2F2F2;
+  text-align:center;
+}
+
 h4 {
   color:#F2F2F2;
   font-family:'Raleway';
