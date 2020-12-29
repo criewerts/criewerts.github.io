@@ -76,13 +76,15 @@ h6 {
 
 #cont {
   width:100%;
-  padding:150px 30% 0%
+  padding:150px 30% 0%;
+  background-color:#202020;
 }
 
 @media (max-aspect-ratio: 4/3) {
   #cont {
     width:100%;
-    padding:150px 10% 0%
+    padding:150px 10% 0%;
+    background-color:#202020;
   }
 }
 
