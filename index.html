@@ -91,10 +91,10 @@
           url = projects[iter]["html_url"];
           lang = projects[iter]["language"];
           desc = projects[iter]["description"]
-          if(!lang){
+          if(!lang && title!="criewerts.github.io"){
             document.getElementById("change").innerHTML = document.getElementById("change").innerHTML + "<a href = "+ url +">" +
             "<div class = " + "card" + ">" + "<h1>" + title + "</h1>" + "<h2>" + desc + "</h2>" + "</div>" + "</a>" + "<br>" + "<br>";
-          } else {
+          } else if (title!="criewerts.github.io") {
           document.getElementById("change").innerHTML = document.getElementById("change").innerHTML + "<a href = "+ url +">" +
           "<div class = " + "card" + ">" + "<h1>" + title + "</h1>" + "<h2>" + desc + "</h2>" + "<h3>" + "Programmed in " + lang + "</h3>" + "</div>" + "</a>" + "<br>" + "<br>";
         }
