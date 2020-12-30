@@ -1,7 +1,8 @@
 /* style.css */
 
 body {
-  background-color: #2A2A2A
+  background-color: #2A2A2A;
+  padding-bottom:150px;
 }
 
 p {
